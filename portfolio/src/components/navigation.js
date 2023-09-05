@@ -1,19 +1,19 @@
 import React from "react";
 
-function Navigation() {
+
+
+function Navigation({page, setPage}) {
+
   return (
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
+    <ul className="nav nav-pills">
+      <li className="nav-item">
+        <a className={(page === 0) ? 'nav-link active' : 'nav-link'} onClick={() => setPage(0)}>Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Expertise</a>
+      <li className="nav-item">
+        <a className={(page === 1) ? 'nav-link active' : 'nav-link'} onClick={() => setPage(1)}>Expertise</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Work</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+      <li className="nav-item">
+        <a className={(page === 2) ? 'nav-link active' : 'nav-link'} onClick={() => setPage(2)}>Work</a>
       </li>
     </ul>
   )

@@ -3,10 +3,10 @@ import Contact from "./contact";
 
 function Footer() {
   return (
-    <div class='sec row d-flex align-items-around'>
-      <p class='display-3 text-center'>Contact</p>
-      <div class='row'>
-        <div class='col'>
+    <div className='sec row d-flex align-items-around'>
+      <p className='display-3 text-center'>Contact</p>
+      <div className='row'>
+        <div className='col'>
           <Contact />
         </div>
       </div>

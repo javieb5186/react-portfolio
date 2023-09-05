@@ -10,6 +10,10 @@
   top: 0;
 }
 
+.below-header {
+  margin-top: 6vh;
+}
+
 .title {
   top: 50%;
 }
