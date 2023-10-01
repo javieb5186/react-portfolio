@@ -1,8 +1,8 @@
 import './App.css';
-import { useState } from 'react';
-import Footer from './components/footer';
+import React, { useState } from 'react';
 import Header from './components/header';
 import Project from './components/project';
+import Footer from './components/footer';
 
 function App() {
   const [page, setPage] = useState(0);
@@ -10,7 +10,9 @@ function App() {
   return (
     <div>
       <Header page={page} setPage={setPage}/>
-      <Project page={page}/>
+      <div className='project'>
+        <Project page={page}/>
+      </div>
       <Footer />
     </div>
   );

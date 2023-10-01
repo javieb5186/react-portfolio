@@ -72,11 +72,6 @@ function Expertise() {
           </p>
         </div>
       </div>
-      <div className='row d-flex justify-content-center'>
-        <div className='col-3 d-flex justify-content-center'>
-          <button type="button" className="btn btn-lg btn-primary">Download Resume</button>
-        </div>
-      </div>
     </div>
   );
 }
