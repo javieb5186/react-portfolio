@@ -1,7 +1,7 @@
 import React from "react";
 
 const style = {
-  backgroundImage: 'url(/profileT.png)',
+  backgroundImage: 'url(./profileT.png)',
   backgroundRepeat: 'no-repeat',
   backgroundPosition: 'center',
   backgroundSize: '35%',

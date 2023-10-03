@@ -10,7 +10,7 @@ function Work() {
       </div>
       <div className='sec row d-flex align-items-center'>
         <div className='col-sm-6'>
-          <img src="/my-work.png" width="80%"></img>
+          <img src="./my-work.png" width="80%"></img>
         </div>
         <div className='col-sm-6 text-center'>
           <p className='display-3'>Tech Blog</p>
@@ -54,12 +54,12 @@ function Work() {
           </div>
         </div>
         <div className='col-sm-6'>
-          <img src="/ghostwriter.png" width="80%"></img>
+          <img src="./ghostwriter.png" width="80%"></img>
         </div>
       </div>
       <div className='sec row d-flex align-items-center'>
         <div className='col-sm-6'>
-          <img src="/pupperpicker.png" width="80%"></img>
+          <img src="./pupperpicker.png" width="80%"></img>
         </div>
         <div className='col-sm-6 text-center'>
           <p className='display-1'>Pupper Picker</p>
@@ -80,7 +80,7 @@ function Work() {
       <div className='sec row d-flex align-items-center justify-content-around'>
         <div className='col-sm-3'>
           <div className="card text-center" width='100%'>
-            <img className="card-img-top" src="/pokemon-quiz.png" alt="Card image"></img>
+            <img className="card-img-top" src="./pokemon-quiz.png" alt="Card image"></img>
             <div className="card-body">
               <h4 className="card-title">Pokemon Quiz</h4>
               <p className="card-text">My first fun project. During class we had free reign to create any type of quiz we 
@@ -99,7 +99,7 @@ function Work() {
         </div>
         <div className='col-sm-3'>
           <div className="card text-center" width='100%'>
-            <img className="card-img-top" src="/portfolio.png" alt="Card image"></img>
+            <img className="card-img-top" src="./portfolio.png" alt="Card image"></img>
             <div className="card-body">
               <h4 className="card-title">First Portfolio</h4>
               <p className="card-text">My first simple portfolio. Although we were tasked with no high expectations for 
@@ -118,7 +118,7 @@ function Work() {
         </div>
         <div className='col-sm-3'>
           <div className="card text-center" width='100%'>
-            <img className="card-img-top" src="/weather-dashboard.png" alt="Card image"></img>
+            <img className="card-img-top" src="./weather-dashboard.png" alt="Card image"></img>
             <div className="card-body">
               <h4 className="card-title">Weather Dashboard</h4>
               <p className="card-text">I was given the task of creating a weather application with a given API and Photo of the 
