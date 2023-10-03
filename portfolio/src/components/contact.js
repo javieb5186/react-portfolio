@@ -113,7 +113,7 @@ function Contact({validEmail, setValidEmail, emptyName, setEmptyName, emptyEmail
               }
             </div>
             <div className="pb-3 pt-3 d-flex justify-content-center">
-              <button type="submit" className="btn btn-primary">Submit</button>
+              <button type="submit" className="btn btn-primary" onClick={(event) => event.preventDefault()}>Submit</button>
             </div>
           </form>
         </div>
