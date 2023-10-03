@@ -1,3 +1,10 @@
+:root {
+  --primary: #27374D;
+  --primary-accent: #526D82;
+  --secondary: #DDE6ED;
+  --secondary-accent: #9DB2BF;
+}
+
 .sec {
   width: 100%;
   height: 100%;
@@ -16,4 +23,35 @@
 
 .title {
   top: 50%;
+}
+
+.nav-item .nav-l {
+  text-decoration: none;
+  align-self: center;
+  padding: 0em 1em;
+  transition: color 0.5s;
+}
+
+.nav-item .nav-l:hover {
+  color: var(--primary-accent);
+}
+
+.home {
+  background-color: var(--primary);
+}
+
+.home > * {
+  color: var(--secondary);
+}
+
+.contact {
+  background-color: var(--secondary-accent);
+}
+
+.contact > * {
+  color: var(--primary);
+}
+
+.project {
+  margin-top: 3em;
 }

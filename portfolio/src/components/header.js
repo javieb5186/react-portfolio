@@ -2,8 +2,12 @@ import React from "react";
 import Navigation from "./navigation";
 
 function Header({page, setPage}) {
+  const style = {
+    color: 'black',
+  }
+  
   return (
-    <div className='header container-fluid'>
+    <div className='header container-fluid' style={style}>
       <header className='row'>
         <div className='row'>
           <div className='col-sm-4'>
